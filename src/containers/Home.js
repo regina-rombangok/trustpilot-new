@@ -30,6 +30,11 @@ function Home() {
             </button>
           </div>
         </div>
+        <div className="Categories-section">
+          <div className="Categories-explorer-wrapper">
+            <p>Explore categroeis</p>
+          </div>
+        </div>
       </div>
     </div>
   );

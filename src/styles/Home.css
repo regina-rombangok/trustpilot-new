@@ -10,12 +10,14 @@
   font-size: 4vw;
   color: #191919;
   width: 62vw;
+  margin: 20px 0;
 }
 
 .Hero-subtitle {
   font-size: 2vw;
   color: #454554;
   font-weight: bold;
+  margin: 10px 0;
 }
 
 .Hero-search {
@@ -23,13 +25,14 @@
   color: #1b1b21;
   outline: none;
   width: 60vw;
-  height: 64px;
-  text-indent: 24px;
+  height: 5vw;
+  min-height: 24px;
+  text-indent: 2vw;
   border-radius: 3px;
   background-color: #fff;
   border: none;
   box-shadow: 0 2px 2px 0 rgb(0 0 50 / 4%);
-  font-size: 16px;
+  font-size: 1.5vw;
   line-height: 24px;
   white-space: nowrap;
   overflow: hidden;
@@ -43,15 +46,20 @@
 }
 
 .Hero-search-button {
-  height: 48px;
+  height: 4vw;
+  min-height: 20px;
   padding: 0 24px;
   background-color: #1a66ff;
   color: #fff;
   position: absolute;
-  top: 8px;
-  right: 4px;
+  top: 0.5vw;
+  right: 0.4vw;
   border: none;
-  font-size: 16px;
+  font-size: 1.5vw;
   font-weight: 600;
   cursor: pointer;
+}
+
+.Categories-section {
+  margin-top: 5vw;
 }
