@@ -3,7 +3,7 @@
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top;
-  padding: 4vw 10vw;
+  padding: 3vw 10vw;
 }
 
 .Hero-title {
@@ -16,4 +16,42 @@
   font-size: 2vw;
   color: #454554;
   font-weight: bold;
+}
+
+.Hero-search {
+  font-weight: 700;
+  color: #1b1b21;
+  outline: none;
+  width: 60vw;
+  height: 64px;
+  text-indent: 24px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgb(0 0 50 / 4%);
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.Hero-input-wrapper {
+  position: relative;
+  width: 60vw;
+}
+
+.Hero-search-button {
+  height: 48px;
+  padding: 0 24px;
+  background-color: #1a66ff;
+  color: #fff;
+  position: absolute;
+  top: 8px;
+  right: 4px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
 }
