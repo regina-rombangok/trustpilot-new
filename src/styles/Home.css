@@ -1,38 +1,19 @@
-.App {
-  
+.Content-container {
+  background-image: url('../assets/hero.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 4vw 10vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Hero-title {
+  font-size: 4vw;
+  color: #191919;
+  width: 62vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Hero-subtitle {
+  font-size: 2vw;
+  color: #454554;
+  font-weight: bold;
 }
