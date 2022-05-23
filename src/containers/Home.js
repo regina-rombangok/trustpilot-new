@@ -31,8 +31,14 @@ function Home() {
           </div>
         </div>
         <div className="Categories-section">
-          <div className="Categories-explorer-wrapper">
-            <p>Explore categroeis</p>
+          <div className="Categories-explore-wrapper">
+            <p className="Categories-explore-label">Explore categroies</p>
+            <button
+              className="Categories-viewall-button"
+              onClick={() => console.log('view all button clicked!')}
+            >
+              View all
+            </button>
           </div>
         </div>
       </div>
