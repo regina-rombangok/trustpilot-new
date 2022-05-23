@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position: top;
   padding: 3vw 10vw;
+  background-color: #dcdce6;
 }
 
 .Hero-title {
@@ -86,4 +87,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.Carousel-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

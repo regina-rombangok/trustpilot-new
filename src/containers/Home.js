@@ -1,7 +1,10 @@
 import React, {useState} from 'react';
 import Header from '../components/Header';
-import logo from '../logo.svg';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 import '../styles/Home.css';
+import CategoryTile from '../components/CategoryTile';
+import banksIcon from '../assets/banks.svg';
 
 function Home() {
   const [keyword, setKeyword] = useState('');
@@ -40,6 +43,36 @@ function Home() {
               View all
             </button>
           </div>
+          <Carousel>
+            <div className="Carousel-wrapper">
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+            </div>
+            <div className="Carousel-wrapper">
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={banksIcon} label="Banks" />
+            </div>
+          </Carousel>
         </div>
       </div>
     </div>

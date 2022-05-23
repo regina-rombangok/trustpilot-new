@@ -1,0 +1,21 @@
+.Tile-container {
+  width: 18vw;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 2vw;
+  margin: 4px;
+}
+
+.Tile-icon {
+  width: 32px !important;
+  height: 32px;
+}
+
+.Tile-label {
+  margin-left: 16px;
+  color: #1b1b21;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
