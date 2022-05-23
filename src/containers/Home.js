@@ -4,7 +4,30 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import '../styles/Home.css';
 import CategoryTile from '../components/CategoryTile';
-import banksIcon from '../assets/banks.svg';
+import banksIcon from '../assets/category_tiles/banks.svg';
+import travelIcon from '../assets/category_tiles/travel_insurance.svg';
+import carDealerIcon from '../assets/category_tiles/car_dealer.svg';
+import furnitureStoreIcon from '../assets/category_tiles/furniture_store.svg';
+import jewelryStoreIcon from '../assets/category_tiles/jewelry_store.svg';
+import clothingStoreIcon from '../assets/category_tiles/clothing_store.svg';
+import electronicsTechnologyIcon from '../assets/category_tiles/electronics_technology.svg';
+import fitnessNutritionCenterIcon from '../assets/category_tiles/fitness_nutrition_center.svg';
+import petStoreIcon from '../assets/category_tiles/pet_store.svg';
+import energeSupplierIcon from '../assets/category_tiles/energy_supplier.svg';
+import realEstateIcon from '../assets/category_tiles/real_estate_agents.svg';
+import insuranceAgencyIcon from '../assets/category_tiles/insurance_agency.svg';
+import bedroomFurnitureIcon from '../assets/category_tiles/bedroom_furniture.svg';
+import activeWearIcon from '../assets/category_tiles/activewear.svg';
+import womenClothingIcon from '../assets/category_tiles/womens_clothing_store.svg';
+import menClothingIcon from '../assets/category_tiles/mens_clothing_store.svg';
+import bicycleStoreIcon from '../assets/category_tiles/bicycle_shop.svg';
+import shoeStoreIcon from '../assets/category_tiles/shoe_store.svg';
+import mortgageBrokerIcon from '../assets/category_tiles/mortgage_broker.svg';
+import applianceStoreIcon from '../assets/category_tiles/appliance_store.svg';
+import cosmeticsStoreIcon from '../assets/category_tiles/cosmetics_store.svg';
+import electonicsStoreIcon from '../assets/category_tiles/electronic_store.svg';
+import gardenCenterIcon from '../assets/category_tiles/garden_center.svg';
+import travelAgencyIcon from '../assets/category_tiles/travel_agency.svg';
 
 function Home() {
   const [keyword, setKeyword] = useState('');
@@ -46,31 +69,31 @@ function Home() {
           <Carousel>
             <div className="Carousel-wrapper">
               <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={travelIcon} label="Travel Insurance" />
+              <CategoryTile icon={carDealerIcon} label="Car Dealer" />
+              <CategoryTile icon={furnitureStoreIcon} label="Furniture Store" />
+              <CategoryTile icon={jewelryStoreIcon} label="Jewelry Store" />
+              <CategoryTile icon={clothingStoreIcon} label="Clothing Store" />
+              <CategoryTile icon={electronicsTechnologyIcon} label="Electronics & Technology" />
+              <CategoryTile icon={fitnessNutritionCenterIcon} label="Fitness & Nutrition" />
+              <CategoryTile icon={petStoreIcon} label="Pet Store" />
+              <CategoryTile icon={energeSupplierIcon} label="Energy Supplier" />
+              <CategoryTile icon={realEstateIcon} label="Real Estate Agents" />
+              <CategoryTile icon={insuranceAgencyIcon} label="Insurance Agency" />
             </div>
             <div className="Carousel-wrapper">
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
-              <CategoryTile icon={banksIcon} label="Banks" />
+              <CategoryTile icon={bedroomFurnitureIcon} label="Bedroom Furniture Store" />
+              <CategoryTile icon={activeWearIcon} label="Activewear Store" />
+              <CategoryTile icon={womenClothingIcon} label="Women's Clothing Store" />
+              <CategoryTile icon={menClothingIcon} label="Men's Clothing Store" />
+              <CategoryTile icon={bicycleStoreIcon} label="Bicycle Store" />
+              <CategoryTile icon={shoeStoreIcon} label="Shoe Store" />
+              <CategoryTile icon={mortgageBrokerIcon} label="Mortgage Broker" />
+              <CategoryTile icon={applianceStoreIcon} label="Appliance Store" />
+              <CategoryTile icon={cosmeticsStoreIcon} label="Cosmetics Store" />
+              <CategoryTile icon={electonicsStoreIcon} label="Electronics Store" />
+              <CategoryTile icon={gardenCenterIcon} label="Garden Center" />
+              <CategoryTile icon={travelAgencyIcon} label="Travel Agency" />
             </div>
           </Carousel>
         </div>
