@@ -28,6 +28,7 @@ import cosmeticsStoreIcon from '../assets/category_tiles/cosmetics_store.svg';
 import electonicsStoreIcon from '../assets/category_tiles/electronic_store.svg';
 import gardenCenterIcon from '../assets/category_tiles/garden_center.svg';
 import travelAgencyIcon from '../assets/category_tiles/travel_agency.svg';
+import RecentReviewCard from '../components/RecentReviewCard';
 
 function Home() {
   const [keyword, setKeyword] = useState('');
@@ -36,7 +37,7 @@ function Home() {
     <div>
       <Header />
       <div className="Content-container">
-        <div>
+        <div className="Hero-section">
           <h1 className="Hero-title">Behind every review is an experience that matters</h1>
           <p className="Hero-subtitle">Read reviews. Write reviews. Find companies.</p>
           <div className="Hero-input-wrapper">
@@ -58,7 +59,7 @@ function Home() {
         </div>
         <div className="Categories-section">
           <div className="Categories-explore-wrapper">
-            <p className="Categories-explore-label">Explore categroies</p>
+            <p className="Categories-explore-label">Explore categories</p>
             <button
               className="Categories-viewall-button"
               onClick={() => console.log('view all button clicked!')}
@@ -66,7 +67,7 @@ function Home() {
               View all
             </button>
           </div>
-          <Carousel>
+          <Carousel infiniteLoop autoPlay>
             <div className="Carousel-wrapper">
               <CategoryTile icon={banksIcon} label="Banks" />
               <CategoryTile icon={travelIcon} label="Travel Insurance" />
@@ -96,6 +97,10 @@ function Home() {
               <CategoryTile icon={travelAgencyIcon} label="Travel Agency" />
             </div>
           </Carousel>
+        </div>
+        <div className="RecentReviews-section">
+          <h2 className="RecentReviews-title">Recent Reviews</h2>
+          <RecentReviewCard />
         </div>
       </div>
     </div>
