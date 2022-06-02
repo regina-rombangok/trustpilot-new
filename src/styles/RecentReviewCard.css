@@ -1,12 +1,20 @@
 .Card-container {
   width: 25vw;
   min-width: 240px;
-  max-width: 480px;
+  max-width: 300px;
   background-color: white;
   padding: 24px;
   margin: 0 0 16px;
   box-shadow: 0 1px 3px 0 rgb(0 0 50 / 4%);
   max-height: 300px;
+  transform: scale(1);
+  transition: transform .8s,box-shadow .8s;
+}
+
+.Card-container:hover {
+  transform: scale(1.03);
+  transition: transform .8s,box-shadow .8s;
+  box-shadow: 0 12px 20px 0 rgb(0 0 50 / 12%);
 }
 
 .Avatar {
@@ -38,4 +46,11 @@
   font-size: 12px;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.Content {
+  overflow: hidden;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #1b1b21;
 }
