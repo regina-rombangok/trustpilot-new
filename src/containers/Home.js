@@ -148,6 +148,22 @@ function Home() {
             </div>
           </Marquee>
         </div>
+        <div className="WhatWeDo-section">
+          <div>
+            <h1 className="WhatWeDo-title">
+              Be heard
+            </h1>
+            <p className="WhatWeDo-subtitle">
+              Trustpilot is a review platform that’s open to everyone. Share your experiences to help others make better choices and encourage companies to up their game.
+            </p>
+            <button
+              className="WhatWeDo-button"
+              onClick={() => console.log("What we do button clicked!")}
+            >
+              What we do
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
