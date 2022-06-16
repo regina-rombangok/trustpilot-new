@@ -163,6 +163,20 @@ function Home() {
               What we do
             </button>
           </div>
+          <div className="Transparency-green-wrapper">
+            <h1 className="Transparency-title">
+              Our 2022 Transparency Report has landed
+            </h1>
+            <p className="WhatWeDo-subtitle">
+              We’re looking back on a year unlike any other. Read about how we ensure our platform’s integrity.
+            </p>
+            <button
+              className="WhatWeDo-button"
+              onClick={() => console.log("Take a look button clicked!")}
+            >
+              Take a look
+            </button>
+          </div>
         </div>
       </div>
     </div>

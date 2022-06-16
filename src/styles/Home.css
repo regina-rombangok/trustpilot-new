@@ -115,14 +115,17 @@
 }
 
 .WhatWeDo-section {
-  padding: 4vw 10vw;
+  padding: 8vw 10vw;
   background-color: #fcfbf3;
+  margin-top: 10vw;
+  position: relative;
 }
 
 .WhatWeDo-title {
   width: 35vw;
   font-size: 3vw;
   color: #191919;
+  margin-top: 0;
 }
 
 .WhatWeDo-subtitle {
@@ -141,4 +144,33 @@
   border: 1px solid #0E291D;
   border-radius: 30px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.Transparency-green-wrapper {
+  width: 35vw;
+  background-color: #63d693;
+  position: absolute;
+  top: -48px;
+  right: 10vw;
+  padding: 3vw;
+}
+
+.Transparency-title {
+  width: 24vw;
+  font-size: 3vw;
+  color: #191919;
+  margin-top: 0;
+}
+
+.Take-a-look-button {
+  width: 160px;
+  height: 50px;
+  color: #fcfcf5;
+  background-color: #0e291d;
+  border: 1px solid #0e291d;
+  font-size: 16px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
 }
