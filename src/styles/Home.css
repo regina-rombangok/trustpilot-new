@@ -174,3 +174,20 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+.YourStories-section {
+  padding: 40px 0;
+}
+
+.YourStories-title {
+  font-size: 18px;
+  color: #9192A7;
+  text-align: center;
+}
+
+.YourStories-subtitle {
+  color: #1b1b21;
+  font-size: 4vw;
+  text-align: center;
+  margin: 16px 0;
+}

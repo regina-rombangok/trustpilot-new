@@ -178,6 +178,10 @@ function Home() {
             </button>
           </div>
         </div>
+        <div className="YourStories-section">
+          <h3 className="YourStories-title">Your stories</h3>
+          <h2 className="YourStories-subtitle">Each review has a personal story</h2>
+        </div>
       </div>
     </div>
   );
