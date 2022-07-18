@@ -1,0 +1,30 @@
+.Footer-container {
+  z-index: 89;
+  color: #fff;
+  background-color: #000032;
+  margin: 0;
+  padding: 64px;
+}
+
+.Menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.Submenu-container {
+  flex: 1;
+  font-size: 18px;
+  font-weight: 700;
+  min-width: 200px;
+  align-self: flex-start;
+  margin-top: 24px;
+}
+
+.Submenu-item {
+  color: rgba(255,255,255,.6);
+  margin-top: 24px;
+  padding-right: 24px;
+  font-size: 14px;
+  cursor: pointer;
+}

@@ -32,6 +32,7 @@ import RecentReviewCard from "../components/RecentReviewCard";
 import { recentReviews } from "../data/recentReviews";
 import Marquee from "react-fast-marquee";
 import PersonalStory from "../components/PersonalStory";
+import Footer from "../components/Footer";
 
 function Home() {
   const [keyword, setKeyword] = useState("");
@@ -185,6 +186,7 @@ function Home() {
           <PersonalStory />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
