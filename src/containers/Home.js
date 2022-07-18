@@ -31,6 +31,9 @@ import travelAgencyIcon from "../assets/category_tiles/travel_agency.svg";
 import RecentReviewCard from "../components/RecentReviewCard";
 import { recentReviews } from "../data/recentReviews";
 import Marquee from "react-fast-marquee";
+import PersonalStory from "../components/PersonalStory";
+import featuredReviewGreen from "../assets/featured-review-green.jpg";
+import {featuredReviews} from "../data/featuredReviews";
 
 function Home() {
   const [keyword, setKeyword] = useState("");
@@ -171,7 +174,7 @@ function Home() {
               We’re looking back on a year unlike any other. Read about how we ensure our platform’s integrity.
             </p>
             <button
-              className="WhatWeDo-button"
+              className="Take-a-look-button"
               onClick={() => console.log("Take a look button clicked!")}
             >
               Take a look
@@ -181,6 +184,7 @@ function Home() {
         <div className="YourStories-section">
           <h3 className="YourStories-title">Your stories</h3>
           <h2 className="YourStories-subtitle">Each review has a personal story</h2>
+          <PersonalStory image={featuredReviewGreen} data={featuredReviews[0]} />
         </div>
       </div>
     </div>

@@ -1,0 +1,23 @@
+.FeaturedReview-wrapper {
+  padding: 0 10vw;
+  margin: 2vw 0;
+  position: relative;
+}
+
+.FeaturedReview-image {
+  width: 100%;
+}
+
+.FeaturedReview-content {
+  position: absolute;
+  top: 4vw;
+  left: 14vw;
+  width: 40vw;
+  height: 34vw;
+  background-color: white;
+}
+
+.FeaturedReview-star {
+  width: 50%;
+  height: 10%;
+}
