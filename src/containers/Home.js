@@ -32,8 +32,6 @@ import RecentReviewCard from "../components/RecentReviewCard";
 import { recentReviews } from "../data/recentReviews";
 import Marquee from "react-fast-marquee";
 import PersonalStory from "../components/PersonalStory";
-import featuredReviewGreen from "../assets/featured-review-green.jpg";
-import {featuredReviews} from "../data/featuredReviews";
 
 function Home() {
   const [keyword, setKeyword] = useState("");
@@ -184,7 +182,7 @@ function Home() {
         <div className="YourStories-section">
           <h3 className="YourStories-title">Your stories</h3>
           <h2 className="YourStories-subtitle">Each review has a personal story</h2>
-          <PersonalStory image={featuredReviewGreen} data={featuredReviews[0]} />
+          <PersonalStory />
         </div>
       </div>
     </div>

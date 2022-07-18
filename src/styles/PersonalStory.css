@@ -12,12 +12,58 @@
   position: absolute;
   top: 4vw;
   left: 14vw;
-  width: 40vw;
-  height: 34vw;
+  width: 30vw;
+  height: 26vw;
   background-color: white;
+  padding: 4vw;
 }
 
 .FeaturedReview-star {
   width: 50%;
-  height: 10%;
+  height: auto;
+}
+
+.FeaturedReview-text {
+  font-size: 3vw;
+  color: #1b1b21;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.FeaturedReview-author {
+  font-size: 1.5vw;
+}
+
+.FeaturedReview-GeneralBtn {
+  position: absolute;
+  top: 10vw;
+  right: 6vw;
+  width: 8vw;
+  height: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 4vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.FeaturedReview-Bg0 {
+  background-image: url('../assets/featured-review-pink.jpg');
+  background-position: 93% 77%;
+}
+
+.FeaturedReview-Bg1 {
+  background-image: url('../assets/featured-review-blue.jpg');
+  background-position: 60% 20%;
+}
+
+.FeaturedReview-Bg2 {
+  background-image: url('../assets/featured-review-green.jpg');
+  background-position: 75% 30%;
+}
+
+.FeaturedReview-SecondBtn {
+  top: 18vw;
 }
